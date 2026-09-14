@@ -1,124 +1,230 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+﻿<!DOCTYPE html>
+<html lang="pt">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nath Perigão</title>
-  <meta name="description" content="Nath Perigão — criadora de conteúdo. Redes sociais, parcerias e contato." />
+  <title>RNB - Antenas e Serviços Técnicos | Pederneira, Ourém</title>
+  <meta name="description" content="RNB - Especialistas em instalação de antenas parabólicas, vigilância por vídeo, reparação de electrodomésticos e assistência técnica em Pederneira-Ourém, Portugal." />
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
 
+  <!-- Header -->
   <header class="site-header">
-    <nav class="nav container">
-      <a href="#top" class="logo">Nath Perigão</a>
-      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#redes">Redes</a></li>
-        <li><a href="#parcerias">Parcerias</a></li>
-        <li><a href="#galeria">Galeria</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
+    <div class="container header-inner">
+      <div class="logo">
+        <img src="assets/img/logo.svg" alt="RNB" class="logo-standard" />
+        <img src="assets/img/logo-white.svg" alt="RNB" class="logo-white" />
+      </div>
+      <nav class="main-nav">
+        <button type="button" class="nav-toggle" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-menu">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#empresa">Empresa</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contactos">Contactos</a></li>
+        </ul>
+      </nav>
+      <a href="tel:249570010" class="cta-button">Ligue Agora</a>
+    </div>
   </header>
 
   <main>
-    <section id="top" class="hero">
-      <div class="container hero-content">
-        <p class="eyebrow">Criadora de conteúdo</p>
-        <h1>Nath Perigão</h1>
-        <p class="hero-subtitle">Conteúdo autêntico, parcerias de verdade e uma comunidade que cresce todo dia.</p>
-        <div class="hero-actions">
-          <a href="#parcerias" class="btn btn-primary">Mídia Kit</a>
-          <a href="#contato" class="btn btn-outline">Fale comigo</a>
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Especialistas em Antenas e Serviços Técnicos</h1>
+          <p class="hero-subtitle">Instalação de antenas parabólicas, vigilância por vídeo, reparação e assistência técnica</p>
+          <a href="#contactos" class="btn btn-primary">Contacte-nos</a>
+        </div>
+        <div class="hero-cards">
+          <div class="hero-card">
+            <img src="assets/img/antena-c83d9384.jpeg" alt="Instalação de antena parabólica" />
+            <h3>Antenas Parabólicas</h3>
+          </div>
+          <div class="hero-card">
+            <img src="assets/img/cctv-ada14077.jpeg" alt="Vigilância por vídeo" />
+            <h3>Vigilância por Vídeo</h3>
+          </div>
+          <div class="hero-card">
+            <img src="assets/img/maq-lavar2_rnb-439943e1.jpeg" alt="Reparação de electrodomésticos" />
+            <h3>Manutenção & Reparação</h3>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="sobre" class="section">
+    <!-- Welcome Section -->
+    <section id="empresa" class="welcome-section">
       <div class="container">
-        <h2>Sobre</h2>
-        <p class="section-text">
-          Aqui vai a bio da Nath: história, tom de voz, temas de conteúdo (lifestyle, humor, moda, etc.)
-          e o que faz a comunidade se conectar com ela. Substitua este texto pelo conteúdo real.
+        <h2>Uma Equipa de Confiança</h2>
+        <p class="section-intro">
+          A RNB é uma empresa com experiência sólida na instalação de antenas parabólicas e na venda e reparação de electrodomésticos.
+          Oferecemos assistência técnica especializada e soluções de vigilância por vídeo para particulares e empresas em Pederneira-Ourém e arredores.
         </p>
       </div>
     </section>
 
-    <section id="redes" class="section section-alt">
+    <!-- Services Section -->
+    <section id="servicos" class="services-section">
       <div class="container">
-        <h2>Redes & Números</h2>
-        <div class="stats-grid">
-          <div class="stat-card">
-            <span class="stat-number">—</span>
-            <span class="stat-label">Instagram</span>
+        <h2>Serviços</h2>
+        <div class="services-grid">
+          <div class="service-item">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+            </div>
+            <h3>Instalação de Antenas</h3>
+            <p>Instalação profissional de antenas parabólicas para recepção de sinal de satélite de alta qualidade.</p>
           </div>
-          <div class="stat-card">
-            <span class="stat-number">—</span>
-            <span class="stat-label">TikTok</span>
+          <div class="service-item">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M23 7l-7 5 7 5V7z"/>
+                <rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
+              </svg>
+            </div>
+            <h3>Vigilância por Vídeo</h3>
+            <p>Sistemas de videovigilância profissionais para segurança residencial e comercial.</p>
           </div>
-          <div class="stat-card">
-            <span class="stat-number">—</span>
-            <span class="stat-label">YouTube</span>
+          <div class="service-item">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="6" cy="6" r="1"/>
+                <circle cx="6" cy="18" r="1"/>
+                <circle cx="18" cy="18" r="1"/>
+                <rect x="2" y="3" width="20" height="18" rx="2"/>
+                <path d="M2 9h20"/>
+              </svg>
+            </div>
+            <h3>Reparação de Electrodomésticos</h3>
+            <p>Reparação e manutenção de electrodomésticos com técnicos especializados e peças de qualidade.</p>
           </div>
-          <div class="stat-card">
-            <span class="stat-number">—</span>
-            <span class="stat-label">Engajamento</span>
+          <div class="service-item">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+              </svg>
+            </div>
+            <h3>Assistência Técnica</h3>
+            <p>Suporte técnico especializado e atendimento rápido para resolução de problemas.</p>
           </div>
-        </div>
-        <div class="social-links">
-          <a href="#" class="social-link" target="_blank" rel="noopener">Instagram</a>
-          <a href="#" class="social-link" target="_blank" rel="noopener">TikTok</a>
-          <a href="#" class="social-link" target="_blank" rel="noopener">YouTube</a>
         </div>
       </div>
     </section>
 
-    <section id="parcerias" class="section">
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
       <div class="container">
-        <h2>Parcerias</h2>
-        <p class="section-text">
-          Marcas com quem já trabalhei e tipos de conteúdo que produzo para parcerias
-          (posts, stories, reels, unboxing, eventos). Adicione logos e cases aqui.
-        </p>
-        <div class="brand-grid">
-          <div class="brand-placeholder">Marca 1</div>
-          <div class="brand-placeholder">Marca 2</div>
-          <div class="brand-placeholder">Marca 3</div>
-          <div class="brand-placeholder">Marca 4</div>
+        <h2>Parceiros de Confiança</h2>
+        <p class="section-intro">Trabalhamos com as principais operadoras e provedores de serviços</p>
+        <div class="partners-grid">
+          <div class="partner">
+            <img src="assets/img/partners/meo.jpeg" alt="MEO" />
+          </div>
+          <div class="partner">
+            <img src="assets/img/partners/nos.jpeg" alt="NOS" />
+          </div>
+          <div class="partner">
+            <img src="assets/img/partners/vodafone.jpeg" alt="Vodafone" />
+          </div>
+          <div class="partner">
+            <img src="assets/img/partners/tnt-sat.jpeg" alt="TNT Sat" />
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="galeria" class="section section-alt">
+    <!-- Gallery Section -->
+    <section class="gallery-section">
       <div class="container">
         <h2>Galeria</h2>
         <div class="gallery-grid">
-          <div class="gallery-item"></div>
-          <div class="gallery-item"></div>
-          <div class="gallery-item"></div>
-          <div class="gallery-item"></div>
-          <div class="gallery-item"></div>
-          <div class="gallery-item"></div>
+          <div class="gallery-item">
+            <img src="assets/img/gallery/galeria-1.jpeg" alt="Showroom RNB" />
+          </div>
+          <div class="gallery-item">
+            <img src="assets/img/gallery/galeria-2.jpeg" alt="Espaço de trabalho" />
+          </div>
+          <div class="gallery-item">
+            <img src="assets/img/gallery/galeria-3.jpeg" alt="Instalação técnica" />
+          </div>
+          <div class="gallery-item">
+            <img src="assets/img/gallery/galeria-4.jpeg" alt="Showroom RNB" />
+          </div>
+          <div class="gallery-item">
+            <img src="assets/img/gallery/galeria-5.jpeg" alt="Espaço RNB" />
+          </div>
+          <div class="gallery-item">
+            <img src="assets/img/gallery/galeria-6.jpeg" alt="Showroom RNB" />
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="contato" class="section">
+    <!-- Contact Section -->
+    <section id="contactos" class="contact-section">
       <div class="container">
-        <h2>Contato</h2>
-        <p class="section-text">Para parcerias, publicidade e contato geral:</p>
-        <a href="mailto:contato@nathperigao.com" class="contact-email">contato@nathperigao.com</a>
+        <h2>Contacte-nos</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Informações de Contacto</h3>
+            <div class="info-item">
+              <strong>Morada:</strong>
+              <p>Rua da Salgueirinha, 5A<br>2435-689 Pederneira<br>Ourém, Portugal</p>
+            </div>
+            <div class="info-item">
+              <strong>Telefone:</strong>
+              <p><a href="tel:249570010">249 570 010</a></p>
+            </div>
+            <div class="info-item">
+              <strong>Telemóvel:</strong>
+              <p><a href="tel:937335067">937 335 067</a></p>
+            </div>
+            <div class="info-item">
+              <strong>Email:</strong>
+              <p><a href="mailto:geral@rnb.pt">geral@rnb.pt</a></p>
+            </div>
+            <div class="social-links">
+              <a href="https://www.facebook.com/rnb.pt" target="_blank" rel="noopener" aria-label="RNB no Facebook">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="contact-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.5823094859003!2d-7.485486!3d39.817155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2e8f8c8c8c8c8c9%3A0xc8c8c8c8c8c8c8c8!2sRua%20da%20Salgueirinha%205A%2C%202435-689%20Pederneira!5e0!3m2!1spt!2spt!4v1234567890"
+              width="100%"
+              height="400"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Localização RNB">
+            </iframe>
+          </div>
+        </div>
       </div>
     </section>
   </main>
 
+  <!-- Footer -->
   <footer class="site-footer">
     <div class="container">
-      <p>&copy; <span id="year"></span> Nath Perigão. Todos os direitos reservados.</p>
+      <p>&copy; <span id="year"></span> RNB. Todos os direitos reservados.</p>
     </div>
   </footer>
 

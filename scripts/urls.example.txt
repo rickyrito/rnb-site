@@ -1,0 +1,22 @@
+# Exemplo de ficheiro de URLs para o download-images.ps1
+# Copia este ficheiro para "urls.txt" e substitui pelas URLs reais
+# que reunires no site (uma URL por linha, linhas com # são ignoradas).
+
+# Logos
+# https://www.rnb.pt/images/logo.svg
+# https://www.rnb.pt/images/logo-white.svg
+
+# Hero
+# https://www.rnb.pt/images/hero-antena.jpg
+# https://www.rnb.pt/images/hero-tecnico.jpg
+# https://www.rnb.pt/images/hero-manutencao.jpg
+
+# Parceiros
+# https://www.rnb.pt/images/meo.png
+# https://www.rnb.pt/images/nos.png
+# https://www.rnb.pt/images/vodafone.png
+# https://www.rnb.pt/images/tntsat.png
+
+# Galeria
+# https://www.rnb.pt/images/galeria-1.jpg
+# https://www.rnb.pt/images/galeria-2.jpg

@@ -203,28 +203,58 @@
     <section class="gallery-section">
       <div class="container">
         <h2>Galeria</h2>
+        <p class="section-intro">Conheça os nossos espaços e equipamentos profissionais</p>
         <div class="gallery-grid">
-          <div class="gallery-item">
-            <img src="assets/img/gallery/galeria-1.jpeg" alt="Showroom RNB" />
+          <div class="gallery-item" onclick="openLightbox(0)">
+            <img src="assets/img/gallery/galeria-1.jpeg" alt="Showroom de Electrodomésticos" />
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Showroom de Electrodomésticos</p>
+            </div>
           </div>
-          <div class="gallery-item">
-            <img src="assets/img/gallery/galeria-2.jpeg" alt="Espaço de trabalho" />
+          <div class="gallery-item" onclick="openLightbox(1)">
+            <img src="assets/img/gallery/galeria-2.jpeg" alt="Centro de Operações" />
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Centro de Operações</p>
+            </div>
           </div>
-          <div class="gallery-item">
-            <img src="assets/img/gallery/galeria-3.jpeg" alt="Instalação técnica" />
+          <div class="gallery-item" onclick="openLightbox(2)">
+            <img src="assets/img/gallery/galeria-3.jpeg" alt="Linha de Reparação" />
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Linha de Reparação Especializada</p>
+            </div>
           </div>
-          <div class="gallery-item">
-            <img src="assets/img/gallery/galeria-4.jpeg" alt="Showroom RNB" />
+          <div class="gallery-item" onclick="openLightbox(3)">
+            <img src="assets/img/gallery/galeria-4.jpeg" alt="Showroom Principal" />
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Showroom Principal</p>
+            </div>
           </div>
-          <div class="gallery-item">
-            <img src="assets/img/gallery/galeria-5.jpeg" alt="Espaço RNB" />
+          <div class="gallery-item" onclick="openLightbox(4)">
+            <img src="assets/img/gallery/galeria-5.jpeg" alt="Área de Assistência Técnica" />
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Área de Assistência Técnica</p>
+            </div>
           </div>
-          <div class="gallery-item">
-            <img src="assets/img/gallery/galeria-6.jpeg" alt="Showroom RNB" />
+          <div class="gallery-item" onclick="openLightbox(5)">
+            <img src="assets/img/gallery/galeria-6.jpeg" alt="Instalação Externa" />
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Sede da RNB</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+      <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+      <div class="lightbox-content">
+        <img id="lightbox-img" src="" alt="" />
+        <p id="lightbox-caption" class="lightbox-caption-text"></p>
+      </div>
+      <button class="lightbox-prev" onclick="prevImage()">❮</button>
+      <button class="lightbox-next" onclick="nextImage()">❯</button>
+    </div>
 
     <!-- Contact Section -->
     <section id="contactos" class="contact-section">

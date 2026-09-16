@@ -2,6 +2,7 @@ import { createContext, useContext, useEffect, useMemo, useState } from 'react';
 
 export const LOCALES = ['pt', 'en', 'fr'];
 export const LANG_LABEL = { pt: 'PT', en: 'EN', fr: 'FR' };
+export const LANG_FLAG = { pt: '🇵🇹', en: '🇬🇧', fr: '🇫🇷' };
 
 const STORAGE_KEY = 'rnb-locale';
 const DEFAULT_LOCALE = 'pt';
@@ -59,14 +60,17 @@ const translations = {
     'whyUs.item6.text': 'Assistência técnica pós-instalação e manutenção preventiva disponível.',
 
     'servicos.title': 'Serviços',
+    'servicos.intro': 'Soluções completas para a sua casa ou negócio, da instalação à assistência pós-venda.',
+    'service.venda.title': 'Venda de Electrodomésticos',
+    'service.venda.desc': 'As melhores marcas ao melhor preço, com aconselhamento especializado para encontrar o equipamento certo para si.',
     'service.antenas.title': 'Instalação de Antenas',
-    'service.antenas.desc': 'Instalação profissional de antenas parabólicas para recepção de sinal de satélite de alta qualidade.',
+    'service.antenas.desc': 'Sinal de satélite nítido em qualquer ponto da casa, com instalação profissional e sem surpresas na fatura.',
     'service.cctv.title': 'Vigilância por Vídeo',
-    'service.cctv.desc': 'Sistemas de videovigilância profissionais para segurança residencial e comercial.',
+    'service.cctv.desc': 'Proteja o que é seu com sistemas de videovigilância fiáveis, pensados para a sua casa ou negócio.',
     'service.eletro.title': 'Reparação de Electrodomésticos',
-    'service.eletro.desc': 'Reparação e manutenção de electrodomésticos com técnicos especializados e peças de qualidade.',
+    'service.eletro.desc': 'Damos nova vida aos seus equipamentos: reparação rápida, peças originais e garantia em cada intervenção.',
     'service.suporte.title': 'Assistência Técnica',
-    'service.suporte.desc': 'Suporte técnico especializado e atendimento rápido para resolução de problemas.',
+    'service.suporte.desc': 'Apoio técnico especializado, resposta rápida e uma equipa pronta para resolver o que for preciso.',
 
     'portfolio.title': 'Parceiros de Confiança',
     'portfolio.intro': 'Trabalhamos com as principais operadoras e provedores de serviços',
@@ -99,7 +103,11 @@ const translations = {
     'search.empty': 'Sem resultados para',
     'search.groupServices': 'Serviços',
     'search.groupSections': 'Secções',
-    'search.groupGallery': 'Galeria'
+    'search.groupGallery': 'Galeria',
+
+    'cookies.title': 'Aviso de cookies',
+    'cookies.text': 'Este site usa cookies essenciais e do Google Fonts/Maps para melhorar a sua experiência. Ao continuar a navegar, aceita a sua utilização.',
+    'cookies.accept': 'Aceitar'
   },
 
   en: {
@@ -154,14 +162,17 @@ const translations = {
     'whyUs.item6.text': 'Post-installation technical support and preventive maintenance available.',
 
     'servicos.title': 'Services',
+    'servicos.intro': 'Complete solutions for your home or business, from installation to after-sales support.',
+    'service.venda.title': 'Appliance Sales',
+    'service.venda.desc': 'Leading brands at the best prices, with expert advice to help you find the right equipment.',
     'service.antenas.title': 'Antenna Installation',
-    'service.antenas.desc': 'Professional satellite dish installation for high-quality signal reception.',
+    'service.antenas.desc': 'Crystal-clear satellite signal anywhere in your home, professionally installed with no surprises on the bill.',
     'service.cctv.title': 'Video Surveillance',
-    'service.cctv.desc': 'Professional video surveillance systems for residential and commercial security.',
+    'service.cctv.desc': 'Protect what matters with reliable video surveillance systems, tailored to your home or business.',
     'service.eletro.title': 'Appliance Repair',
-    'service.eletro.desc': 'Repair and maintenance of household appliances with specialised technicians and quality parts.',
+    'service.eletro.desc': 'We bring your appliances back to life: fast repairs, original parts and a warranty on every job.',
     'service.suporte.title': 'Technical Support',
-    'service.suporte.desc': 'Specialised technical support and fast service to resolve any issue.',
+    'service.suporte.desc': 'Specialised technical support, fast response times and a team ready to solve whatever comes up.',
 
     'portfolio.title': 'Trusted Partners',
     'portfolio.intro': 'We work with the leading network operators and service providers',
@@ -194,7 +205,11 @@ const translations = {
     'search.empty': 'No results for',
     'search.groupServices': 'Services',
     'search.groupSections': 'Sections',
-    'search.groupGallery': 'Gallery'
+    'search.groupGallery': 'Gallery',
+
+    'cookies.title': 'Cookie notice',
+    'cookies.text': 'This site uses essential cookies and Google Fonts/Maps to improve your experience. By continuing to browse, you agree to their use.',
+    'cookies.accept': 'Accept'
   },
 
   fr: {
@@ -249,14 +264,17 @@ const translations = {
     'whyUs.item6.text': 'Assistance technique post-installation et maintenance préventive disponibles.',
 
     'servicos.title': 'Services',
+    'servicos.intro': "Des solutions complètes pour votre maison ou votre entreprise, de l'installation au service après-vente.",
+    'service.venda.title': "Vente d'Électroménager",
+    'service.venda.desc': "Les meilleures marques au meilleur prix, avec des conseils d'experts pour trouver l'équipement qui vous convient.",
     'service.antenas.title': "Installation d'Antennes",
-    'service.antenas.desc': "Installation professionnelle d'antennes paraboliques pour une réception satellite de haute qualité.",
+    'service.antenas.desc': "Un signal satellite impeccable partout chez vous, installé par des professionnels, sans mauvaise surprise sur la facture.",
     'service.cctv.title': 'Vidéosurveillance',
-    'service.cctv.desc': 'Systèmes de vidéosurveillance professionnels pour la sécurité résidentielle et commerciale.',
+    'service.cctv.desc': 'Protégez ce qui compte avec des systèmes de vidéosurveillance fiables, adaptés à votre maison ou votre entreprise.',
     'service.eletro.title': "Réparation d'Électroménager",
-    'service.eletro.desc': "Réparation et entretien d'électroménager par des techniciens spécialisés, avec des pièces de qualité.",
+    'service.eletro.desc': "Nous redonnons vie à vos appareils : réparation rapide, pièces d'origine et garantie sur chaque intervention.",
     'service.suporte.title': 'Assistance Technique',
-    'service.suporte.desc': 'Assistance technique spécialisée et intervention rapide pour résoudre tout problème.',
+    'service.suporte.desc': "Assistance technique spécialisée, réponse rapide et une équipe prête à résoudre tous vos problèmes.",
 
     'portfolio.title': 'Partenaires de Confiance',
     'portfolio.intro': 'Nous travaillons avec les principaux opérateurs et fournisseurs de services',
@@ -289,7 +307,11 @@ const translations = {
     'search.empty': 'Aucun résultat pour',
     'search.groupServices': 'Services',
     'search.groupSections': 'Sections',
-    'search.groupGallery': 'Galerie'
+    'search.groupGallery': 'Galerie',
+
+    'cookies.title': 'Avis relatif aux cookies',
+    'cookies.text': "Ce site utilise des cookies essentiels et Google Fonts/Maps pour améliorer votre expérience. En continuant à naviguer, vous acceptez leur utilisation.",
+    'cookies.accept': 'Accepter'
   }
 };
 

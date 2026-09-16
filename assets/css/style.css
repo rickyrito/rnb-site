@@ -855,6 +855,12 @@ body {
   height: 24px;
 }
 
+.contact-right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
 .contact-map {
   border-radius: 10px;
   overflow: hidden;
@@ -863,6 +869,107 @@ body {
 
 .contact-map iframe {
   display: block;
+}
+
+/* Contact form */
+.contact-form {
+  background: var(--bg-light);
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: var(--shadow-sm);
+}
+
+.contact-form h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 22px;
+  color: var(--text-dark);
+}
+
+.form-field {
+  margin-bottom: 18px;
+}
+
+.form-field label {
+  display: block;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--text-dark);
+  margin-bottom: 6px;
+}
+
+.form-field input,
+.form-field textarea {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 14px;
+  color: var(--text-dark);
+  background: white;
+  resize: vertical;
+  transition: border-color 0.2s ease;
+}
+
+.form-field input:focus,
+.form-field textarea:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+.contact-form .btn {
+  width: 100%;
+  justify-content: center;
+}
+
+.contact-form-note {
+  margin-top: 12px;
+  font-size: 12px;
+  color: var(--text-light);
+  text-align: center;
+}
+
+/* WhatsApp floating button */
+.whatsapp-float {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: #25d366;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-lg);
+  z-index: 90;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.08);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.28);
+}
+
+.whatsapp-float svg {
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 480px) {
+  .whatsapp-float {
+    right: 16px;
+    bottom: 16px;
+    width: 52px;
+    height: 52px;
+  }
+
+  .whatsapp-float svg {
+    width: 26px;
+    height: 26px;
+  }
 }
 
 /* Footer */

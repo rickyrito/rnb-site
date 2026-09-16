@@ -24,7 +24,11 @@ const translations = {
     'aria.nav': 'Navegação principal',
     'header.cta': 'Ligue Agora',
 
+    'hero.eyebrow': 'RNB — Antenas, Vídeo & Assistência Técnica',
     'hero.title': 'Soluções Integradas em Infraestrutura e Suporte Técnico',
+    'hero.titlePrefix': 'A sua casa, sempre',
+    'hero.titleAccent': 'ligada',
+    'hero.titleSuffix': '.',
     'hero.subtitle': 'Expertise em instalação de sistemas de antenas, videovigilância e reparação de equipamentos, com mais de 20 anos ao serviço da região de Ourém.',
     'hero.cta': 'Solicitar Orçamento',
 
@@ -137,7 +141,11 @@ const translations = {
     'aria.nav': 'Main navigation',
     'header.cta': 'Call Now',
 
+    'hero.eyebrow': 'RNB — Antennas, Video & Technical Support',
     'hero.title': 'Integrated Infrastructure and Technical Support Solutions',
+    'hero.titlePrefix': 'Keeping your home always',
+    'hero.titleAccent': 'connected',
+    'hero.titleSuffix': '.',
     'hero.subtitle': 'Expertise in antenna system installation, video surveillance and equipment repair, with more than 20 years serving the Ourém area.',
     'hero.cta': 'Request a Quote',
 
@@ -250,7 +258,11 @@ const translations = {
     'aria.nav': 'Navigation principale',
     'header.cta': 'Appelez maintenant',
 
+    'hero.eyebrow': 'RNB — Antennes, Vidéo & Assistance Technique',
     'hero.title': 'Solutions Intégrées en Infrastructure et Support Technique',
+    'hero.titlePrefix': 'Votre maison, toujours',
+    'hero.titleAccent': 'connectée',
+    'hero.titleSuffix': '.',
     'hero.subtitle': "Expertise en installation de systèmes d'antennes, vidéosurveillance et réparation d'équipements, avec plus de 20 ans au service de la région d'Ourém.",
     'hero.cta': 'Demander un Devis',
 

@@ -13,7 +13,7 @@ function highlight(text, term) {
   return <>{text.slice(0, at)}<mark>{text.slice(at, at + needle.length)}</mark>{text.slice(at + needle.length)}</>;
 }
 
-export function SearchOverlay({ isOpen, onClose, items }) {
+export function SearchOverlay({ isOpen, onClose, items, onSelectGalleryImage }) {
   const { t } = useLocale();
   const [query, setQuery] = useState('');
   const inputRef = useRef(null);
@@ -48,6 +48,10 @@ export function SearchOverlay({ isOpen, onClose, items }) {
 
   const handleSelect = (item) => {
     onClose();
+    if (item.group === 'gallery' && onSelectGalleryImage) {
+      onSelectGalleryImage(item.galleryIndex);
+      return;
+    }
     const target = document.getElementById(item.sectionId);
     target?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   };

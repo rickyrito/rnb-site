@@ -77,6 +77,8 @@ const TRANSLATIONS = {
 
     "contato.title": "Contato",
     "contato.text": "Para agendamentos e dúvidas:",
+    "contato.phone": "+351 919 872 094",
+    "contato.address": "Rotunda da Ministra, Carapalha, Castelo Branco, Portugal.",
 
     "footer.rights": "Todos os direitos reservados.",
 
@@ -202,6 +204,8 @@ const TRANSLATIONS = {
 
     "contato.title": "Contact",
     "contato.text": "For bookings and enquiries:",
+    "contato.phone": "+351 919 872 094",
+    "contato.address": "Rotunda da Ministra, Carapalha, Castelo Branco, Portugal.",
 
     "footer.rights": "All rights reserved.",
 
@@ -327,6 +331,8 @@ const TRANSLATIONS = {
 
     "contato.title": "Contact",
     "contato.text": "Pour les rendez-vous et les questions :",
+    "contato.phone": "+351 919 872 094",
+    "contato.address": "Rotunda da Ministra, Carapalha, Castelo Branco, Portugal.",
 
     "footer.rights": "Tous droits réservés.",
 

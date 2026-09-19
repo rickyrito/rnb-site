@@ -25,36 +25,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-<<<<<<< HEAD
-=======
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Build
-        run: npm run build
-
->>>>>>> a18a464c0125692e0e4fa14bd2eee8928b2be4da
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-<<<<<<< HEAD
           path: .
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-=======
-          path: ./dist
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
->>>>>>> a18a464c0125692e0e4fa14bd2eee8928b2be4da

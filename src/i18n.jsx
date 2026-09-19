@@ -79,7 +79,9 @@ const translations = {
     'service.suporte.desc': 'Apoio técnico especializado, resposta rápida e uma equipa pronta para resolver o que for preciso.',
 
     'portfolio.title': 'Parceiros de Confiança',
-    'portfolio.intro': 'Trabalhamos com as principais operadoras e provedores de serviços',
+    'portfolio.intro': 'Confiança que se constrói com o tempo: somos parceiros certificados das maiores marcas do setor, para lhe garantirmos sempre o melhor serviço.',
+    'portfolio.badge': 'Parceiro Certificado',
+    'portfolio.trust': 'Mais de 20 anos a representar quem também acredita em fazer bem feito.',
 
     'gallery.title': 'Galeria',
     'gallery.intro': 'Conheça os nossos espaços e equipamentos profissionais',
@@ -196,7 +198,9 @@ const translations = {
     'service.suporte.desc': 'Specialised technical support, fast response times and a team ready to solve whatever comes up.',
 
     'portfolio.title': 'Trusted Partners',
-    'portfolio.intro': 'We work with the leading network operators and service providers',
+    'portfolio.intro': "Trust built over time: we're certified partners of the industry's leading brands, so you always get the best service.",
+    'portfolio.badge': 'Certified Partner',
+    'portfolio.trust': 'Over 20 years representing brands that believe in doing things right, too.',
 
     'gallery.title': 'Gallery',
     'gallery.intro': 'Take a look at our spaces and professional equipment',
@@ -313,7 +317,9 @@ const translations = {
     'service.suporte.desc': "Assistance technique spécialisée, réponse rapide et une équipe prête à résoudre tous vos problèmes.",
 
     'portfolio.title': 'Partenaires de Confiance',
-    'portfolio.intro': 'Nous travaillons avec les principaux opérateurs et fournisseurs de services',
+    'portfolio.intro': 'Une confiance qui se construit avec le temps : nous sommes partenaires certifiés des plus grandes marques du secteur, pour vous garantir toujours le meilleur service.',
+    'portfolio.badge': 'Partenaire Certifié',
+    'portfolio.trust': 'Plus de 20 ans à représenter des marques qui croient, elles aussi, au travail bien fait.',
 
     'gallery.title': 'Galerie',
     'gallery.intro': 'Découvrez nos espaces et nos équipements professionnels',

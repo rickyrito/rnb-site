@@ -1,0 +1,35 @@
+# URLs de imagens extraídas de https://www.rnb.pt/
+# Gerado para uso com download-images.ps1
+
+# Logos
+https://www.rnb.pt/images/logo.svg
+https://www.rnb.pt/images/logo-w.svg
+
+# Banners CTA
+https://www.rnb.pt/images/ligue-agora.png
+https://www.rnb.pt/images/ligue-agora1.png
+
+# Hero / Serviços destacados
+https://www.rnb.pt/templates/yootheme/cache/a2/antena-satelite_rnb-a2a352c6.jpeg
+https://www.rnb.pt/templates/yootheme/cache/94/frigorifico_rnb-94416f97.jpeg
+https://www.rnb.pt/templates/yootheme/cache/43/maq-lavar2_rnb-439943e1.jpeg
+
+# Showroom / Galeria
+https://www.rnb.pt/templates/yootheme/cache/d2/26001377_913144525511406_5351374914821348238_n-d2fc02e9.jpeg
+https://www.rnb.pt/templates/yootheme/cache/9b/showroom2-9b76eb84.jpeg
+https://www.rnb.pt/templates/yootheme/cache/f6/showroom1-f6f018de.jpeg
+https://www.rnb.pt/templates/yootheme/cache/bf/showroom3-bff4bab2.jpeg
+https://www.rnb.pt/templates/yootheme/cache/40/showroom4-407b0d30.jpeg
+https://www.rnb.pt/templates/yootheme/cache/64/showroom5-64f95c06.jpeg
+
+# Serviços (ícones/fotos)
+https://www.rnb.pt/templates/yootheme/cache/c8/antena-c83d9384.jpeg
+https://www.rnb.pt/templates/yootheme/cache/ad/cctv-ada14077.jpeg
+https://www.rnb.pt/templates/yootheme/cache/2e/maq-lavar2-2e827ef7.jpeg
+https://www.rnb.pt/templates/yootheme/cache/5b/maq-lavar-5b30c0a7.jpeg
+
+# Portfolio / Parceiros
+https://www.rnb.pt/templates/yootheme/cache/7a/meo-7a080fb8.jpeg
+https://www.rnb.pt/templates/yootheme/cache/3a/nos-3a00fe1a.jpeg
+https://www.rnb.pt/templates/yootheme/cache/53/vodafone-535d1725.jpeg
+https://www.rnb.pt/templates/yootheme/cache/92/tnt-sat-9200e2ef.jpeg
